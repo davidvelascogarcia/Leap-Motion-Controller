@@ -39,10 +39,23 @@ before_install:
 
 install:
 
+# Instalar YARP
+
+  - sudo sh -c 'echo "deb http://www.icub.org/ubuntu trusty contrib/science" > /etc/apt/sources.list.d/icub.list'
+  - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6
+  - sudo apt-get update
+  - sudo apt-get install yarp
+
+# Instalar OpenCV
+
+  - sudo apt-get install libopencv-dev
 
 # Tareas a ejecutar antes de nuestra prueba
 
 before_script:
+  - cd programs
+  - cd Leap_Motion_YARP_Sender
+  - mkdir build
   - cd build
   - cmake ..
 
@@ -55,7 +68,7 @@ script:
 
 after_success:
   - sudo make install
-  - ./Leap_Motion_YARP_Sender
+#  - ./Leap_Motion_YARP_Sender
   - sudo make uninstall
 
 # Notificaciones por correo
