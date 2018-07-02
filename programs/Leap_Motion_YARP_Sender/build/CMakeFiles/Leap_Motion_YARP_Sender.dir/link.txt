@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Leap_Motion_YARP_Sender.dir/leap_motion_sender.cpp.o  -o Leap_Motion_YARP_Sender -rdynamic /usr/local/lib/libYARP_dev.so.2.3.72 /usr/local/lib/libYARP_name.so.2.3.72 /usr/local/lib/libYARP_init.so.2.3.72 /usr/local/lib/libYARP_math.so.2.3.72 /usr/local/lib/libYARP_sig.so.2.3.72 /usr/local/lib/libYARP_OS.so.2.3.72 -Wl,-rpath,/usr/local/lib 

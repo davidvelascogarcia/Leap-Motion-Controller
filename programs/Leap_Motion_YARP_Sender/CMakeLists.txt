@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(Leap_Motion_YARP_Sender)
+add_executable(Leap_Motion_YARP_Sender leap_motion_sender.cpp)
+find_package(YARP REQUIRED)
+target_link_libraries(Leap_Motion_YARP_Sender ${YARP_LIBRARIES})

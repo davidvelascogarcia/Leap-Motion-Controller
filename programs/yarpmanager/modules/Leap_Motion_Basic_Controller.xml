@@ -1,0 +1,11 @@
+
+<!--- Módulo aplicación de análisis de frames con Leap Motion -->
+
+    <module>
+
+        <name>Leap_Motion_Basic_Controller</name>
+        <description>Anáisis de frames Leap Motion</description>
+	<workdir>/home/davidvelascogarcia/Proyectos/Leap_Motion_Controller/Leap_Motion_Controller_Basic/main</workdir> 
+    </module>
+
+
