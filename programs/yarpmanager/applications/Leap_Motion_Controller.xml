@@ -10,7 +10,7 @@
 
     <module>
         <name>Leap_Motion_Basic_Controller</name>
-	<workdir>/home/davidvelascogarcia/Proyectos/Leap_Motion_Controller/Leap_Motion_Controller_Basic/main</workdir> 
+	<workdir>./Leap_Motion_Controller_Basic/main</workdir> 
         <node>localhost</node>
     </module>
 
@@ -18,7 +18,7 @@
 
     <module>
         <name>Leap_Motion_YARP_Sender</name>
-	<workdir>/home/davidvelascogarcia/Proyectos/Leap_Motion_Controller/Leap_Motion_YARP_Sender/build</workdir> 
+	<workdir>./Leap_Motion_YARP_Sender/build</workdir> 
         <node>localhost</node>
     </module>
 
