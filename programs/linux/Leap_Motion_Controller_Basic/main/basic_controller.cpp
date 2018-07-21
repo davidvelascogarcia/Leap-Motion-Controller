@@ -73,7 +73,7 @@ void SampleListener::onFrame(const Controller& controller) {
    cout<<endl;
    ofstream fichero_datos;
    fichero_datos.open("../datos/datos.txt");
-   fichero_datos<<coordenadas[0]<<"|"<<coordenadas[1]<<"|"<<coordenadas[2]<<"|"<<hand.grabStrength();
+   fichero_datos<<coordenadas[0]<<","<<coordenadas[1]<<","<<coordenadas[2]<<","<<hand.grabStrength()<<";";
    fichero_datos.close();
 
     }
