@@ -1,0 +1,3 @@
+﻿  Leap_Motion_Controller_Basic.cpp
+c:\program files\robotology\yarp-2.3.72\include\yarp\os\connectionwriter.h(183): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Leap_Motion_Controller_Basic.vcxproj -> E:\Proyectos\windows\Leap_Motion_Controller_Basic\Leap_Motion_Controller_Basic\x64\Debug\Leap_Motion_Controller_Basic.exe
