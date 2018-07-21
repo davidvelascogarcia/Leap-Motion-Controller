@@ -5,7 +5,7 @@
 
         <name>Leap_Motion_YARP_Sender</name>
         <description>Envío de datos por YARP</description>
-	<workdir>./Leap_Motion_YARP_Sender/build</workdir> 
+	<workdir>./linux/Leap_Motion_YARP_Sender/build</workdir> 
     </module>
 
 

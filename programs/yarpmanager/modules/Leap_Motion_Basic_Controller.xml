@@ -5,7 +5,7 @@
 
         <name>Leap_Motion_Basic_Controller</name>
         <description>Anáisis de frames Leap Motion</description>
-	<workdir>./Leap_Motion_Controller_Basic/main</workdir> 
+	<workdir>./linux/Leap_Motion_Controller_Basic/main</workdir> 
     </module>
 
 
