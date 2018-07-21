@@ -54,6 +54,7 @@ install:
 
 before_script:
   - cd programs
+  - cd linux
   - cd Leap_Motion_YARP_Sender
   - mkdir build
   - cd build
