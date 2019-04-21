@@ -1,13 +1,18 @@
-# Leap Motion: Controller
-[![Build Status](https://travis-ci.org/davidvelascogarcia/Leap-Motion-Controller.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/Leap-Motion-Controller)
+# Leap Motion: Controller (C++ API)
+[![Build Status](https://travis-ci.org/davidvelascogarcia/leapmotionController.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/leapmotionController)
 
 - [Introducción](#introducción)
+- [Listado de programas](#listado-de-programas)
 - [Enlaces de interés](#enlaces-de-interés)
 
 ## Introduccción
 
-Leap Motion Controller. Controlador Leap Motion con envío de parámetros vía YARP.
+`leapmotionController`, implementación de aplicación para el control vía Leap Motion y streaming en red, con emisor y receptor. Envío vía `YARP`.
+
+## Listado de programas
+
+Se adjuntan el listado de aplicaciones implementadas en [./programs](./programs)
 
 ## Enlaces de interés
 
-[Programa](./programs)
+[YARP](http://www.yarp.it/)

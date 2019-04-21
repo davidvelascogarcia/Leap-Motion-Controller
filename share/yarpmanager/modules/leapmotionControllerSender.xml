@@ -1,0 +1,11 @@
+
+<!--- Módulo aplicación de análisis de frames con Leap Motion -->
+
+    <module>
+
+        <name>leapmotionControllerSender</name>
+        <description>Envío de datos por YARP</description>
+	<workdir>./../programs/linux/leapmotionController/sender/build</workdir> 
+    </module>
+
+

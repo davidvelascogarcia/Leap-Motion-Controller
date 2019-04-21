@@ -1,0 +1,42 @@
+<!--- YARPMANAGER Leap Motion: Controller -->
+
+<application>
+
+<!--- Nombre aplicación -->
+
+<name>leapmotionController App</name>
+
+<!--- Módulo aplicación de análisis de frames con Leap Motion -->
+
+    <module>
+        <name>leapmotionControllerBasic</name>
+	<workdir>./../programs/linux/leapmotionController/basic/main</workdir> 
+        <node>localhost</node>
+    </module>
+
+<!--- Módulo de envío de datos del Leap Motion por YARP -->
+
+    <module>
+        <name>leapmotionControllerSender</name>
+	<workdir>./../programs/linux/leapmotionController/sender/build</workdir> 
+        <node>localhost</node>
+    </module>
+
+
+<!--- Módulo Leap Control Panel -->
+
+    <module>
+        <name>LeapControlPanel</name>
+        <node>localhost</node>
+    </module>
+
+
+
+<!--- Conexión de puertos -->
+
+    <connection>
+        <from>/leapmotionController/data:o</from>
+        <to>/leapmotionController/data:i</to>
+    </connection>
+
+</application>
