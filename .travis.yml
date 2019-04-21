@@ -55,7 +55,8 @@ install:
 before_script:
   - cd programs
   - cd linux
-  - cd Leap_Motion_YARP_Sender
+  - cd leapmotionController
+  - cd sender
   - mkdir build
   - cd build
   - cmake ..
@@ -69,7 +70,6 @@ script:
 
 after_success:
   - sudo make install
-#  - ./Leap_Motion_YARP_Sender
   - sudo make uninstall
 
 # Notificaciones por correo
